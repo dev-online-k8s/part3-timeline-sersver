@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: timeline
-          image: {ecr주소}/timeline-server:0.0.1
+          image: 638597541124.dkr.ecr.ap-northeast-2.amazonaws.com/timeline-server:0.0.1
           imagePullPolicy: Always
           env:
             - name: SPRING_PROFILES_ACTIVE

@@ -33,7 +33,7 @@ jib {
 		image = "openjdk:21"
 	}
 	to {
-		image = "{ecr주소}/timeline-server"
+		image = "638597541124.dkr.ecr.ap-northeast-2.amazonaws.com/timeline-server"
 		tags = ['0.0.1']
 	}
 	container {
